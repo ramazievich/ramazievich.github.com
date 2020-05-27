@@ -1,0 +1,503 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 576px;
+    margin: 150px 0 0 0;
+  }
+
+  .header-block {
+    position: fixed;
+    width: 576px;
+    padding: 40px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    z-index: 999;
+    margin: -150px 0 0 0;
+  }
+
+  .menu-ul-li {
+    font-size: 19px;
+    padding-bottom: 15px;
+  }
+  .header-carousel {
+    display: none;
+  }
+
+  .options {
+    width: 576px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .options-block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 470px;
+    padding: 0 10px 15px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .options-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 470px;
+    padding: 10px 10px 15px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .options-block-txt {
+    font-family: "montserrat light", "verdana", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .products {
+    padding: 27px 20px 0 20px;
+  }
+
+  .products-p {
+    display: block;
+    max-width: 524px;
+    font-size: 18px;
+  }
+
+  .products-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: 30px 0 30px 0;
+  }
+
+  .products-btn-item {
+    margin: 10px;
+    padding: 13px 22px 10px 22px;
+    min-height: 32px;
+    border: none;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8c8c8c;
+  }
+
+  .products-list-block {
+    width: 480px;
+    min-height: 237px;
+    margin: 0 15px 15px 15px;
+  }
+
+  .products-list-img {
+    width: 480px;
+    height: 362px;
+    display: block;
+    background-color: #ccc;
+  }
+
+  .products-list-block-txt1 {
+    height: 15px;
+    display: block;
+    font-family: "raleway medium", verdana medium, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c7b299;
+  }
+
+  .products-list-block-txt2 {
+    height: 14px;
+    display: block;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d1d1d1;
+    padding-top: 14px;
+  }
+
+  .products-list-block:hover .products-list-btn1 {
+    display: block;
+    outline: none;
+    top: -200px;
+    left: 25%;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+
+  .products-list-block:hover .products-list-btn2 {
+    display: block;
+    outline: none;
+    top: -200px;
+    left: 60%;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+
+  .btn-load-more {
+    width: 200px;
+    height: 69px;
+    margin: 32px 0 35px 182px;
+    padding: 12px 22px 10px 22px;
+    min-height: 32px;
+    border: none;
+    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    font-family: "raleway extrabold", "open sans extrabold", sans-serif;
+    font-size: 20px;
+  }
+
+  .wrap-video {
+    display: none;
+  }
+
+  .mobile {
+    width: 576px;
+    min-height: 610px;
+    background-color: #fbfaf8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .mobile-h2 {
+    width: 408px;
+    font-family: "raleway semibold", "open sans semibold", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    margin: 0 0 0 80px;
+  }
+
+  .mobile-p {
+    min-width: 529px;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    color: #8c8c8c;
+    margin: 29px 0px 17px 0px;
+  }
+
+  .mobile-list {
+    height: 112px;
+    width: 292px;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c8c8c;
+    margin: 0px 0 0 246px;
+    padding: 2px 0 0 0;
+  }
+
+  .mobile-list-item:before {
+    content: "";
+    display: block;
+    width: 22px;
+    min-height: 22px;
+    position: absolute;
+    top: 5px;
+    left: -29px;
+    background-image: url(../img/list-marker.svg);
+    background-size: cover;
+  }
+
+  .mobile-img {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 318px;
+    display: block;
+    width: 202px;
+    height: 291px;
+  }
+
+  .progress {
+    display: none;
+  }
+
+  .recent-posts {
+    position: relative;
+    width: 576px;
+    background-color: #ffffff;
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+  }
+
+  .recent-posts-p {
+    width: 576px;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8c8c8c;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reset-post-wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .recent-posts-box {
+    width: 480px;
+    min-height: 389px;
+    outline: solid 1px #f8f8f8;
+    margin: 15px;
+  }
+
+  .recent-posts-img {
+    display: block;
+    width: 481px;
+    height: 285px;
+  }
+
+  .recent-posts-title {
+    font-family: "raleway medium", "open sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    display: block;
+    margin: 30px 0 0 29px;
+  }
+
+  .recent-posts-txt {
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c8c8c;
+    margin: 19px 0 0 29px;
+  }
+
+  .recent-posts-a {
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    display: block;
+    margin: 27px 0 33px 29px;
+  }
+
+  .recent-posts-a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    display: block;
+    float: left;
+    border: 7px solid transparent;
+    border-left: 12px solid #c7b299;
+    margin: -17px 0 0 101px;
+  }
+
+  .recent-pagination {
+    position: absolute;
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: -24px 0 22px 186px;
+  }
+
+  .calendar {
+    position: absolute;
+    margin: -262px 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .recent-posts-btn {
+    fill: #d1d1d1;
+    width: 22px;
+    height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    margin: 0 25px;
+  }
+
+  .partners-img {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    display: block;
+    margin: 23px 38px;
+    width: 172px;
+  }
+
+  .footer {
+    width: 576px;
+  }
+
+  .footer2 {
+    height: 110px;
+    background-color: #111111;
+    color: #555555;
+    font-family: "montserrat light", verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    padding: 0 20px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+  }
+
+  .copy::after,
+  .policy::after,
+  .designed::after,
+  .faq::after {
+    content: " ";
+    background: #555555;
+    width: 1px;
+    height: 18px;
+    float: right;
+    margin: 4px 10px 0 10px;
+  }
+}
